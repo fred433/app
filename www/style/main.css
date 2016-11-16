@@ -367,6 +367,9 @@ section {
   section.section--white {
     background-color: #fff; }
 
+.all {
+  height: 100vh; }
+
 .banner {
   width: 100%;
   float: left;
@@ -420,21 +423,9 @@ section {
   float: left;
   margin-left: 0;
   margin-right: 0;
-  height: 400px;
+  height: 100vh;
   position: relative;
   background-color: #272727; }
-  @media (min-width: 425px) {
-    .banner--big {
-      height: 350px; } }
-  @media (min-width: 768px) {
-    .banner--big {
-      height: 425px; } }
-  @media (min-width: 1024px) {
-    .banner--big {
-      height: 600px; } }
-  @media (min-width: 2560px) {
-    .banner--big {
-      height: 1100px; } }
 
 footer {
   width: 100%;
@@ -551,11 +542,11 @@ footer {
 
 .text-box {
   position: absolute;
-  top: 12%;
+  top: 9%;
   left: 10%;
   right: 10%; }
   .text-box.text2 {
-    top: 34%; }
+    top: 26%; }
     @media (min-width: 768px) {
       .text-box.text2 {
         top: 40%; } }
@@ -617,6 +608,17 @@ footer {
     #map {
       height: 800px; } }
 
+#mapac {
+  width: 100%;
+  z-index: 1000;
+  height: 70vh; }
+  @media (min-width: 426px) {
+    #mapac {
+      height: 500px; } }
+  @media (min-width: 2560px) {
+    #mapac {
+      height: 800px; } }
+
 .button {
   background-color: transparent;
   padding-top: 0.625rem;
@@ -647,6 +649,9 @@ footer {
 
 .ma {
   margin-top: 2.5rem; }
+
+#boto {
+  display: none; }
 
 * {
   box-sizing: border-box; }
