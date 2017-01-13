@@ -2,7 +2,7 @@
 
 A PhoneGap Hello World template
 
-## Usage
+## Usages
 
 #### PhoneGap CLI
 
